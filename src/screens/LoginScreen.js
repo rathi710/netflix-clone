@@ -50,6 +50,7 @@ function LoginScreen() {
                   }}
                 > GET STARTED
                 </button>
+                
               </form>
             </div>
           </>

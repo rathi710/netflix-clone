@@ -63,12 +63,14 @@ h1 {
   text-align: center;
   margin-top: 10%;
 }
+
 h2 {
   font-size: "2rem";
   font-weight: 400;
   margin-bottom: "30px";
   text-align: center;
 }
+
 h3 {
   font-size: "1.3rem";
   font-weight: 400;
@@ -78,21 +80,23 @@ h3 {
 .loginScreen_input {
   margin: "20px";
 }
+
 .loginScreen_input > form > input{
-  padding: "10px";
+  padding: 10px;
   outline-width: 0;
-  height: "30px";
-  width: "50%";
-  border: "none";
-  max-width: "600px";
+  height: 30px;
+  width: 50%;
+  border: none;
+  max-width: 500px;
 } 
+
  .loginScreen_input > form{
   text-align: center;
   padding-top: 5%;
 }
 
 .loginScreen_getStarted {
-  padding: 16px 20px;
+  padding: 16px 25px;
   font-size: 1rem;
   color: #fff;
   background-color: #e50914;
@@ -100,71 +104,16 @@ h3 {
   cursor: pointer;
   font-weight: 600;
 }  
-
-
   
-    .wrapper {
-      padding: 20px 50px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-      .logo {
-        height: 40px;
-      }
+.wrapper {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 40px;
+}
       
 
-     
-
-
-
-
-
-        /* // import React, { useState } from 'react'
-// import SignupScreen from "./SignupScreen"
-// import "./LoginScreen.css";
-
-// function LoginScreen() {
-//     const [signIn, setSignIn] = useState(false)
-//     return (
-//         <div className="loginScreen">
-//             <div className="loginScreen_background">
-//                 <img className="loginScreen_logo"
-//                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png" 
-//                 alt="logo"/>
-//                 <button className="loginScreen_button" onClick={(e) => {
-//                     e.preventDefault()
-//                     setSignIn(true)
-//                 }}>
-//                     Sign In
-//                 </button>
-
-
-//                 <div className="loginScreen_gradient"/>
-//                 </div>
-//             <div className="loginScreen_body">
-//                 {signIn ? (
-//                     <SignupScreen/>
-//                 ) : (
-                        
-//                     <>
-//                     <h1>Unlimited films, TV programmes and more.</h1>
-//                     <h2>Watch anywhere. Cancel at anytime</h2>
-//                     <h3>Ready to watch? Enter your email to create or restart your membership</h3>
-//                 <div className="loginScreen_input">
-//                         <form >
-//                             <input type="email" placeholder="Email address" />
-//                             <button className="loginScreen_getStarted" onClick={(e) => {
-//                     e.preventDefault()
-//                     setSignIn(true)
-//                 }}>GET STARTED</button>
-//                     </form>
-//                 </div>    
-//                 </>
-//                 )}
-//                 </div>
-//         </div>
-//     )
-// }
-
-// export default LoginScreen; */
